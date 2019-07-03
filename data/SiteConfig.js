@@ -3,7 +3,7 @@ const config = {
   siteTitleShort: "Brain2Economy", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Brain Economy", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
-  siteUrl: "https://blog.wissensaktivierung.de", // Domain of your website without pathPrefix.
+  siteUrl: "https://blog-wissensaktiverung.netlify.com", // Domain of your website without pathPrefix.
   pathPrefix: "", // Prefixes all links. For cases when deployed to example.github.io/gatsby-material-starter/.
   fixedFooter: false, // Whether the footer component is fixed, i.e. always visible
   siteDescription: "Die Aufklärungsseite für begabte Menschen.", // Website description used for RSS feeds/meta description tag.
