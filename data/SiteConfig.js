@@ -1,5 +1,5 @@
 const config = {
-  siteTitle: "Brain2Economy | - f&uuml;r mehr handlungsf&auml;hige begabte Hirne", // Site title.
+  siteTitle: "Brain2Economy", // Site title.
   siteTitleShort: "Brain2Economy", // Short site title for homescreen (PWA). Preferably should be under 12 characters to prevent truncation.
   siteTitleAlt: "Brain Economy", // Alternative site title for SEO.
   siteLogo: "/logos/logo-1024.png", // Logo used for SEO and manifest.
@@ -18,9 +18,9 @@ const config = {
   userEmail: "kontakt@armin-ruetten.de", // Email used for RSS feed's author segment
   userTwitter: "", // Optionally renders "Follow Me" in the UserInfo segment.
   userLocation: "Deutschland", // User location to display in the author segment.
-  userAvatar: "https://api.adorable.io/avatars/150/test.png", // User avatar to display in the author segment.
+  userAvatar: "/assets/user.jpeg", // User avatar to display in the author segment.
   userDescription:
-    "Yeah, I like animals better than people sometimes... Especially dogs. Dogs are the best. Every time you come home, they act like they haven't seen you in a year. And the good thing about dogs... is they got different dogs for different people.", // User description to display in the author segment.
+    "Sprechen Sie mich an, um nähere Informationen zu erhalten, herzlichen Dank!", // User description to display in the author segment.
   // Links to social profiles/projects you want to display in the author segment/navigation bar.
   userLinks: [
     {
