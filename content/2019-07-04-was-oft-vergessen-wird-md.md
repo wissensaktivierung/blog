@@ -1,7 +1,7 @@
 ---
 title: Was oft vergessen wird
 date: 2019-07-03T23:45:50.208Z
-cover: /assets/wa-2.jpeg
+cover: /assets/forest-grass-nature-158251.jpg
 slug: was-oft-vergessen-wird
 category: Verschiedenes
 tags:
