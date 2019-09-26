@@ -16,7 +16,7 @@ class PostCover extends Component {
         ) !== -1
       ) return true;
 
-      // Test additional path for content created by Content Manager
+      // Workaround for Content Manager images path problems
       if (
         fileNode.node.absolutePath.indexOf(
           path.join("/", post.cover)
