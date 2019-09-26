@@ -14,8 +14,14 @@ class PostCover extends Component {
         fileNode.node.absolutePath.indexOf(
           path.join("/static/assets/", post.cover)
         ) !== -1
-      )
-        return true;
+      ) return true;
+
+      // Test additional path for content created by Content Manager
+      if (
+        fileNode.node.absolutePath.indexOf(
+          path.join("/", post.cover)
+        ) !== -1
+      ) return true;
 
       return false;
     });
@@ -30,7 +36,6 @@ class PostCover extends Component {
       );
     }
 
-    /* eslint no-undef: "off" */
     const coverURL =
       post.cover.substring(0, 1) === "/"
         ? __PATH_PREFIX__ + post.cover
