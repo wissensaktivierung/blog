@@ -1,7 +1,7 @@
 ---
 title: Was oft vergessen wird
 date: 2019-07-03T23:45:50.208Z
-cover: /assets/5.jpg
+cover: 5.jpg
 slug: was-oft-vergessen-wird
 category: Verschiedenes
 tags:
